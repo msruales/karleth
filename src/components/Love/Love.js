@@ -8,7 +8,7 @@ const Love = () => {
     useEffect(() => {
         setTimeout(() => {
             setButtonM(true)
-        }, 3000)
+        }, 4000)
     },[])
     return (
         <div className="app">

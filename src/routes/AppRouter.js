@@ -1,10 +1,9 @@
 import {BrowserRouter, Routes, Route} from "react-router-dom";
-import Screen1 from "../../../kamg/src/components/Screen1";
-import Screen2 from "../../../kamg/src/components/Screen2";
-import Love from "../../../kamg/src/components/Love/Love";
 import './appRouter.scss'
-import Michis from "../../../kamg/src/components/Michis/Michis";
-
+import Screen1 from "../components/Screen1";
+import Screen2 from "../components/Screen2";
+import Michis from "../components/Michis/Michis";
+import Love from "../components/Love/Love"
 export const AppRouter = () => {
   return (
       <BrowserRouter>
